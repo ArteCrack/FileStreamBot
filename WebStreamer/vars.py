@@ -9,7 +9,7 @@ load_dotenv()
 class Var(object):
     API_ID = int(getenv('API_ID'))
     API_HASH = str(getenv('API_HASH'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN'))
+    BOT_TOKEN = str(getenv('7049048787:AAHpYfrmud1LYBLGmzN_rjy-ICLkNdZjN8M'))
     SESSION_NAME = str(getenv('SESSION_NAME', 'Moksh_b658'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
